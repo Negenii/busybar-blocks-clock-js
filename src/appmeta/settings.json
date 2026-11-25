@@ -1,0 +1,69 @@
+{
+  "format_version": 1,
+  "version": 1,
+  "fields": {
+    "colour": {
+      "label": "Colour",
+      "type": "enum",
+      "default": "classic",
+      "options": [
+        { "value": "classic", "label": "Classic" },
+        { "value": "amber", "label": "Amber" },
+        { "value": "white", "label": "White" },
+        { "value": "green", "label": "Green" },
+        { "value": "settle", "label": "Settle" }
+      ]
+    },
+    "time": {
+      "label": "Time",
+      "type": "enum",
+      "default": "24h",
+      "options": [
+        { "value": "12h", "label": "12h" },
+        { "value": "24h", "label": "24h" }
+      ]
+    },
+    "seconds": {
+      "label": "Seconds",
+      "type": "boolean",
+      "default": true
+    },
+    "sec_anim": {
+      "label": "Sec anim",
+      "type": "enum",
+      "default": "quick",
+      "options": [
+        { "value": "quick", "label": "Quick" },
+        { "value": "quicker", "label": "Quicker" },
+        { "value": "snap", "label": "Snap" }
+      ]
+    },
+    "speed": {
+      "label": "Speed",
+      "type": "enum",
+      "default": "medium",
+      "options": [
+        { "value": "slowest", "label": "Slowest" },
+        { "value": "slow", "label": "Slow" },
+        { "value": "medium", "label": "Medium" },
+        { "value": "fast", "label": "Fast" },
+        { "value": "fastest", "label": "Fastest" }
+      ]
+    },
+    "colon": {
+      "label": "Colon",
+      "type": "enum",
+      "default": "blink",
+      "options": [
+        { "value": "blink", "label": "Blink" },
+        { "value": "solid", "label": "Solid" },
+        { "value": "off", "label": "Off" }
+      ]
+    },
+    "animation": {
+      "label": "Animation",
+      "type": "boolean",
+      "default": true
+    }
+  }
+}

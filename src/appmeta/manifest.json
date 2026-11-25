@@ -1,0 +1,10 @@
+{
+  "format_version": 1,
+  "id": "me.negenii.blocks-clock",
+  "name": "Blocks Clock",
+  "version": "1.0.0",
+  "api_version": "27.15.0",
+  "description": "A clock inspired by a famous game.",
+  "author": "negenii",
+  "heap_size_kib": 512
+}
